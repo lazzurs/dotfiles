@@ -1,0 +1,19 @@
+[user]
+	email = rob.lazzurs@amach.ie
+	name = Rob Lazzurs
+[core]
+	editor = vim
+	autocrlf = input
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main
+
+[includeIf "gitdir:~/.local/"]
+	path = ~/.local/.gitconfig
+
+[includeIf "gitdir:~/git/ei/"]
+	path = ~/git/ei/.gitconfig
+
+[includeIf "gitdir:~/git/github/"]
+	path = ~/git/github/.gitconfig
