@@ -1,0 +1,27 @@
+set backspace=indent,eol,start
+" Set shift width to 4 spaces.
+set shiftwidth=4
+
+" Set tab width to 4 columns.
+set tabstop=4
+
+" Use space characters instead of tabs.
+set expandtab
+
+" Hybrid line numbers
+set number relativenumber
+
+
+call plug#begin()
+Plug 'altercation/vim-colors-solarized'
+Plug 'tpope/vim-fugitive'
+Plug 'thanethomson/vim-jenkinsfile'
+Plug 'hashivim/vim-terraform'
+Plug 'hashivim/vim-packer'
+Plug 'vim-syntastic/syntastic'
+Plug 'juliosueiras/vim-terraform-completion'
+call plug#end()
+
+syntax enable
+set background=dark
+colorscheme solarized
