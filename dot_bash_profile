@@ -1,0 +1,21 @@
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+#export PATH=/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/MacGPG2/bin:/Library/TeX/texbin
+
+if type brew &>/dev/null; then
+  HOMEBREW_PREFIX="$(brew --prefix)"
+  if [[ -r "${HOMEBREW_PREFIX}/etc/profile.d/bash_completion.sh" ]]; then
+    source "${HOMEBREW_PREFIX}/etc/profile.d/bash_completion.sh"
+  else
+    for COMPLETION in "${HOMEBREW_PREFIX}/etc/bash_completion.d/"*; do
+      [[ -r "$COMPLETION" ]] && source "$COMPLETION"
+    done
+  fi
+fi
+
+if [ -f "/opt/homebrew/opt/bash-git-prompt/share/gitprompt.sh" ]; then
+  __GIT_PROMPT_DIR="/opt/homebrew/opt/bash-git-prompt/share"
+  source "/opt/homebrew/opt/bash-git-prompt/share/gitprompt.sh"
+fi
+
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
