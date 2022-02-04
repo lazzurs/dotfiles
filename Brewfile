@@ -114,7 +114,6 @@ cask 'arduino'
 cask 'atom'
 cask 'electrum'
 cask 'tor-browser'
-cask 'docker'
 cask 'vagrant'
 cask 'firefox'
 #xquartz before inkscape
