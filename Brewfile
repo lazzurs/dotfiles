@@ -96,6 +96,8 @@ brew 'f3'
 brew 'localstack'
 brew 'age'
 brew 'chezmoi'
+brew 'docker'
+brew 'colima'
 #brew 'wireshark'
 #cask 'wireshark'
 # Casks
