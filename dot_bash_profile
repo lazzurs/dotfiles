@@ -19,3 +19,4 @@ if [ -f "/opt/homebrew/opt/bash-git-prompt/share/gitprompt.sh" ]; then
 fi
 
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+export PATH="$PATH:/Users/lazzurs/opt/flutter/bin"
