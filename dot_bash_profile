@@ -20,3 +20,6 @@ fi
 
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 export PATH="$PATH:/Users/lazzurs/opt/flutter/bin"
+
+export GEM_HOME="$HOME/.gem"
+export PATH="$GEM_HOME/bin:$PATH"
