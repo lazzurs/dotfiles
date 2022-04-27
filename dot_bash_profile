@@ -25,4 +25,6 @@ export GEM_HOME="$HOME/.gem"
 export PATH="$GEM_HOME/bin:$PATH"
 
 #Adding for Fig https://fig.io
+# Fig pre block. Keep at the top of this file.
+. "$HOME/.fig/shell/bash_profile.pre.bash"
 export PATH="$PATH:~/.local/bin"
