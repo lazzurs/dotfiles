@@ -27,3 +27,6 @@ export GEM_HOME="$HOME/.gem"
 export PATH="$GEM_HOME/bin:$PATH"
 
 #export PATH="$PATH:~/.local/bin"
+
+# Fig post block. Keep at the bottom of this file.
+. "$HOME/.fig/shell/bash_profile.post.bash"
