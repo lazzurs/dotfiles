@@ -1,6 +1,4 @@
-# Fig pre block. Keep at the top of this file.
-. "$HOME/.fig/shell/bash_profile.pre.bash"
-if [ -f "/opt/homebrew/bin/brew" ];
+f [ -f "/opt/homebrew/bin/brew" ];
 then
     eval "$(/opt/homebrew/bin/brew shellenv)"
 elif [ -f "/usr/local/bin/brew" ];
@@ -34,6 +32,3 @@ export PATH="$GEM_HOME/bin:$PATH"
 
 export PATH="$PATH:/Users/lazzurs/Library/Python/3.9/bin"
 #export PATH="$PATH:~/.local/bin"
-
-# Fig post block. Keep at the bottom of this file.
-. "$HOME/.fig/shell/bash_profile.post.bash"
