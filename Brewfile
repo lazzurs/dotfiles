@@ -135,7 +135,7 @@ cask 'duet'
 cask 'signal'
 cask 'veracrypt'
 cask 'knockknock'
-cask 'oversight'
+#cask 'oversight' # commenting out as there is a problem with the install
 cask 'nagbar'
 cask 'kobo'
 cask 'vnc-viewer'
