@@ -3,6 +3,7 @@ cask_args appdir: '/Applications'
 tap 'homebrew/cask' || true
 tap 'homebrew/cask-fonts' || true
 tap 'adoptopenjdk/openjdk' || true
+tap 'StevenACoffman/jt' || true
 brew 'git'
 brew 'openconnect'
 brew 'git-crypt'
