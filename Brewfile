@@ -5,6 +5,7 @@ tap 'homebrew/cask-fonts' || true
 tap 'adoptopenjdk/openjdk' || true
 tap 'StevenACoffman/jt' || true
 brew 'git'
+brew 'byobu'
 brew 'openconnect'
 brew 'git-crypt'
 brew 'git-remote-codecommit'
