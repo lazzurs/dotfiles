@@ -34,3 +34,6 @@ export PATH="$PATH:/Users/lazzurs/Library/Python/3.9/bin"
 #export PATH="$PATH:~/.local/bin"
 
 eval "$(nodenv init -)"
+
+# Added by Toolbox App
+export PATH="$PATH:/Users/lazzurs/Library/Application Support/JetBrains/Toolbox/scripts"
