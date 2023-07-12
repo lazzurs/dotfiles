@@ -107,6 +107,7 @@ brew 'docker-credential-helper-ecr'
 brew 'colima'
 brew 'azure-cli'
 brew 'gh'
+brew 'restic'
 #brew 'wireshark'
 #cask 'wireshark'
 # Casks
