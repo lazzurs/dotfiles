@@ -20,6 +20,7 @@ Plug 'hashivim/vim-terraform'
 Plug 'hashivim/vim-packer'
 Plug 'vim-syntastic/syntastic'
 Plug 'juliosueiras/vim-terraform-completion'
+Plug 'https://github.com/github/copilot.vim'
 call plug#end()
 
 syntax enable
