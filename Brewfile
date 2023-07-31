@@ -109,7 +109,7 @@ brew 'azure-cli'
 brew 'gh'
 brew 'restic'
 #brew 'wireshark'
-cask 'wireshark'
+#cask 'wireshark'
 # Casks
 cask 'google-chrome'
 cask 'vlc'
