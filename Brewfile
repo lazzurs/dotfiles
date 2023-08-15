@@ -2,7 +2,6 @@ cask_args appdir: '/Applications'
 # install packages
 tap 'homebrew/cask' || true
 tap 'homebrew/cask-fonts' || true
-tap 'adoptopenjdk/openjdk' || true
 tap 'StevenACoffman/jt' || true
 brew 'git'
 brew 'byobu'
@@ -156,8 +155,6 @@ cask 'ngrok'
 cask 'amazon-chime'
 cask 'phantomjs'
 cask 'session-manager-plugin'
-cask 'adoptopenjdk8'
-cask 'adoptopenjdk11'
 cask 'sensiblesidebuttons'
 cask 'joplin'
 cask 'element'
