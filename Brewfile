@@ -2,6 +2,7 @@ cask_args appdir: '/Applications'
 # install packages
 tap 'homebrew/cask' || true
 tap 'homebrew/cask-fonts' || true
+tap 'homebrew/cask-versions' || true
 tap 'StevenACoffman/jt' || true
 brew 'git'
 brew 'byobu'
