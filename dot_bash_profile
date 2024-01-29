@@ -19,10 +19,13 @@ if type brew &>/dev/null; then
   fi
 fi
 
-if [ -f "/opt/homebrew/opt/bash-git-prompt/share/gitprompt.sh" ]; then
-  _GIT_PROMPT_DIR="/opt/homebrew/opt/bash-git-prompt/share"
-  source "/opt/homebrew/opt/bash-git-prompt/share/gitprompt.sh"
-fi
+#if [ -f "/opt/homebrew/opt/bash-git-prompt/share/gitprompt.sh" ]; then
+#  _GIT_PROMPT_DIR="/opt/homebrew/opt/bash-git-prompt/share"
+#  source "/opt/homebrew/opt/bash-git-prompt/share/gitprompt.sh"
+#fi
+
+# Testing Starship https://starship.rs/
+eval "$(starship init bash)"
 
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 export PATH="$PATH:/Users/lazzurs/opt/flutter/bin"
