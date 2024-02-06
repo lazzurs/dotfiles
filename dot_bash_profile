@@ -40,3 +40,6 @@ eval "$(nodenv init -)"
 
 # Added by Toolbox App
 export PATH="$PATH:/Users/lazzurs/Library/Application Support/JetBrains/Toolbox/scripts"
+
+# Atuin
+eval "$(atuin init bash)"
