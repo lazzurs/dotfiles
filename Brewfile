@@ -108,6 +108,7 @@ brew 'colima'
 brew 'azure-cli'
 brew 'gh'
 brew 'restic'
+brew 'mono'
 # Casks
 cask 'google-chrome'
 cask 'vlc'
