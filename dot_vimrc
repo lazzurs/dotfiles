@@ -21,6 +21,7 @@ Plug 'hashivim/vim-packer'
 Plug 'vim-syntastic/syntastic'
 Plug 'juliosueiras/vim-terraform-completion'
 Plug 'https://github.com/github/copilot.vim'
+Plug 'vim-airline/vim-airline'
 call plug#end()
 
 syntax enable
