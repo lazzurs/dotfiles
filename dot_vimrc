@@ -22,7 +22,7 @@ Plug 'vim-syntastic/syntastic'
 Plug 'juliosueiras/vim-terraform-completion'
 Plug 'https://github.com/github/copilot.vim'
 Plug 'vim-airline/vim-airline'
-Plug 'perservim/nerdtree'
+Plug 'preservim/nerdtree'
 call plug#end()
 
 syntax enable
