@@ -27,22 +27,44 @@ fi
 # Testing Starship https://starship.rs/
 eval "$(starship init bash)"
 
-export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+if [ -d "/opt/homebrew/opt/openjdk/bin" ];
+then
+    export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+fi
+
 export PATH="$PATH:/Users/lazzurs/opt/flutter/bin"
 
 export GEM_HOME="$HOME/.gem"
 export PATH="$GEM_HOME/bin:$PATH"
 
+if [ -d $HOME/bin ];
+then
+    export PATH="$HOME/bin:$PATH"
+fi
+
 export PATH="$PATH:/Users/lazzurs/Library/Python/3.9/bin"
 #export PATH="$PATH:~/.local/bin"
 
-eval "$(nodenv init -)"
+#eval "$(nodenv init -)"
 
 # Added by Toolbox App
-export PATH="$PATH:/Users/lazzurs/Library/Application Support/JetBrains/Toolbox/scripts"
+if [ -d "/Users/lazzurs/Library/Application Support/JetBrains/Toolbox/scripts" ];
+then
+    export PATH="$PATH:/Users/lazzurs/Library/Application Support/JetBrains/Toolbox/scripts"
+fi
 
 # bash-preexec
-[ -f /opt/homebrew/etc/profile.d/bash-preexec.sh ] && . /opt/homebrew/etc/profile.d/bash-preexec.sh
+#if [ -f /opt/homebrew/etc/profile.d/bash-preexec.sh ];
+#then
+#    . /opt/homebrew/etc/profile.d/bash-preexec.sh
+#elif [ -f "$HOME/.bash-preexec.sh" ];
+#then
+#    . ~/.bash-preexec.sh
+#fi
+
+# Bash Line editor https://github.com/akinomyoga/ble.sh
+source ~/.local/share/blesh/ble.sh
 
 # Atuin
+. "$HOME/.atuin/bin/env"
 eval "$(atuin init bash)"
