@@ -113,6 +113,7 @@ brew 'gh'
 brew 'restic'
 brew 'mono'
 brew 'podman'
+brew 'tofuenv'
 # Casks
 cask 'google-chrome'
 cask 'vlc'
