@@ -28,6 +28,10 @@ Plug 'juliosueiras/vim-terraform-completion'
 Plug 'https://github.com/github/copilot.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'preservim/nerdtree'
+" Add maktaba and bazel to the runtimepath.
+" (The latter must be installed before it can be used.)
+Plug 'google/vim-maktaba'
+Plug 'bazelbuild/vim-bazel'
 call plug#end()
 
 syntax enable
