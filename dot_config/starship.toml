@@ -4,3 +4,6 @@ disabled = false
 
 [time]
 disabled = false
+
+[prompt]
+command_timeout = 1000
