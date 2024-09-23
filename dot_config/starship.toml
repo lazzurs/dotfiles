@@ -1,9 +1,8 @@
+command_timeout = 1000
+
 [localip]
 ssh_only = false
 disabled = false
 
 [time]
 disabled = false
-
-[prompt]
-command_timeout = 1000
