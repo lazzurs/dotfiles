@@ -65,5 +65,7 @@ if [ -f ~/.local/share/blesh/ble.sh ]; then
 fi
 
 # Atuin
-. "$HOME/.atuin/bin/env"
+if [ -f "$HOME/.atuin/bin/env" ]; then
+    . "$HOME/.atuin/bin/env"
+fi
 eval "$(atuin init bash)"
