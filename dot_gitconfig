@@ -1,6 +1,7 @@
 [user]
 	email = rob@lazzurs.org
 	name = Rob Lazzurs
+    signingkey = D0D98ECE14FF7775
 [core]
 	editor = vim
 	autocrlf = input
@@ -29,3 +30,5 @@
 
 [url "ssh://git@github.com/"]
     insteadOf = https://github.com/
+[commit]
+	gpgsign = true
