@@ -42,10 +42,11 @@ then
     export PATH="$HOME/bin:$PATH"
 fi
 
-export PATH="$PATH:/Users/lazzurs/Library/Python/3.9/bin"
-#export PATH="$PATH:~/.local/bin"
-
-#eval "$(nodenv init -)"
+# Add local go bin to path
+if [ -d $HOME/go/bin ];
+then
+    export PATH="$HOME/go/bin:$PATH"
+fi
 
 # Added by Toolbox App
 if [ -d "/Users/lazzurs/Library/Application Support/JetBrains/Toolbox/scripts" ];
