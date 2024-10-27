@@ -70,3 +70,6 @@ if [ -f "$HOME/.atuin/bin/env" ]; then
     . "$HOME/.atuin/bin/env"
 fi
 eval "$(atuin init bash)"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/lazzurs/.cache/lm-studio/bin"
