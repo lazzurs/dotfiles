@@ -180,7 +180,7 @@ cask 'orbstack'
 #cask 'corretto17'
 cask 'beeper'
 cask 'simplenote'
-cask 'proton-drive'
+#cask 'proton-drive' # Install via Brew doesn't provide Finder folder integration
 cask 'standard-notes'
 cask 'drawio'
 cask 'podman-desktop'
