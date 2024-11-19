@@ -19,6 +19,7 @@ nnoremap <C-f> :NERDTreeFind<CR>
 
 call plug#begin()
 Plug 'altercation/vim-colors-solarized'
+Plug 'zabanaa/neuromancer.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'thanethomson/vim-jenkinsfile'
 Plug 'hashivim/vim-terraform'
