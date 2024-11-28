@@ -196,4 +196,3 @@ cask 'anytype'
 cask 'transmission'
 cask 'warp'
 cask 'alacritty'
-
