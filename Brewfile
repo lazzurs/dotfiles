@@ -1,6 +1,7 @@
 cask_args appdir: '/Applications'
 # install packages
 tap 'StevenACoffman/jt' || true
+tap 'hashicorp/tap' || true
 brew 'git'
 brew 'byobu'
 brew 'openconnect'
