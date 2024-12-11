@@ -201,3 +201,5 @@ cask 'warp'
 cask 'alacritty'
 cask 'wave'
 cask 'tableau'
+# Hashicorp tap
+brew 'hashicorp/tap/nomad'
