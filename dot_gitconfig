@@ -18,13 +18,16 @@
 [includeIf "gitdir:~/git/ei/"]
 	path = ~/git/ei/.gitconfig
 
+[includeIf "gitdir:~/git/triton/"]
+    path = ~/git/triton/.gitconfig
+
 [includeIf "gitdir:~/git/github/"]
 	path = ~/git/github/.gitconfig
 
 [includeIf "gitdir:~/git/github/amachsoftware/"]
 	path = ~/git/github/amachsoftware/.gitconfig
 
-[inclueIf "gitdir:~/git/github/unicornops/"]
+[includeIf "gitdir:~/git/github/unicornops/"]
     path = ~/git/github/unicornops/.gitconfig
 
 [filter "lfs"]
