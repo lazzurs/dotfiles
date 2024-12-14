@@ -201,6 +201,7 @@ cask 'wave'
 cask 'tableau'
 cask 'tailscale'
 cask 'cursor'
+cask 'visual-studio-code'
 # Hashicorp tap
 brew 'hashicorp/tap/nomad'
 brew 'hashicorp/tap/terraform'
