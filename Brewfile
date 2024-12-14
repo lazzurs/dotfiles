@@ -200,6 +200,8 @@ cask 'alacritty'
 cask 'wave'
 cask 'tableau'
 cask 'tailscale'
+cask 'cursor'
 # Hashicorp tap
 brew 'hashicorp/tap/nomad'
 brew 'hashicorp/tap/terraform'
+
