@@ -202,6 +202,7 @@ cask 'tableau'
 cask 'tailscale'
 cask 'cursor'
 cask 'visual-studio-code'
+cask 'snes9x'
 # Hashicorp tap
 brew 'hashicorp/tap/nomad'
 brew 'hashicorp/tap/terraform'
