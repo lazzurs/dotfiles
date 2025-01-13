@@ -207,4 +207,5 @@ cask 'snes9x'
 # Hashicorp tap
 brew 'hashicorp/tap/nomad'
 brew 'hashicorp/tap/terraform'
-
+# Tabby tap
+brew 'tabbyml/tabby/tabby'
