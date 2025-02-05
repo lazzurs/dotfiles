@@ -27,3 +27,9 @@ Host git.lazzurs.net
     Port 222
     IdentityFile ~/.ssh/keys/gitea
 
+
+## HSE
+
+Host ssh.dev.azure.com
+    User git
+    IdentityFile ~/.ssh/keys/hse
