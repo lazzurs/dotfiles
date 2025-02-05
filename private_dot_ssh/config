@@ -34,4 +34,4 @@ Host ssh.dev.azure.com
     IdentityFile ~/.ssh/keys/hse
     IdentitiesOnly yes
     HostkeyAlgorithms +ssh-rsa
-    PubkeyAcceptedKeyTypes=ssh-rsa
+    PubkeyAcceptedKeyTypes +rsa-sha2-256,rsa-sha2-512
