@@ -30,6 +30,9 @@
 [includeIf "gitdir:~/git/github/unicornops/"]
     path = ~/git/github/unicornops/.gitconfig
 
+[includeIf "gitdir:~/git/hse/"]
+    path = ~/git/hse/.gitconfig
+
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
