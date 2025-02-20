@@ -27,6 +27,11 @@ Host git.lazzurs.net
     Port 222
     IdentityFile ~/.ssh/keys/gitea
 
+## Neamh
+
+Host neamh-*.hostofdoom.net
+    User root
+    IdentityFile ~/.ssh/keys/neamh
 
 ## HSE
 
