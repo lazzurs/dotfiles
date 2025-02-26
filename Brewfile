@@ -3,6 +3,7 @@ cask_args appdir: '/Applications'
 tap 'StevenACoffman/jt' || true
 tap 'hashicorp/tap' || true
 tap 'tabbyml/tabby' || true
+tap 'aws/tap' || true
 brew 'git'
 brew 'byobu'
 brew 'openconnect'
