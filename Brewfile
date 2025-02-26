@@ -213,3 +213,4 @@ brew 'hashicorp/tap/terraform'
 brew 'hashicorp/tap/vault'
 # Tabby tap
 brew 'tabbyml/tabby/tabby'
+brew 'aws/tap/lightsailctl'
