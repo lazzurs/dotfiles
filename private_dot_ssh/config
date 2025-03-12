@@ -40,3 +40,8 @@ Host ssh.dev.azure.com
     IdentitiesOnly yes
     HostkeyAlgorithms +ssh-rsa
     PubkeyAcceptedKeyTypes +rsa-sha2-256,rsa-sha2-512
+
+## Aireach
+
+Host *.aireach.ie
+    IdentityFile ~/.ssh/keys/aireach
