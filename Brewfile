@@ -212,6 +212,7 @@ cask 'visual-studio-code'
 cask 'snes9x'
 cask 'docker'
 cask 'stats'
+cask 'mattermost'
 # Hashicorp tap
 brew 'hashicorp/tap/nomad'
 brew 'hashicorp/tap/terraform'
