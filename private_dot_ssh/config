@@ -43,5 +43,6 @@ Host ssh.dev.azure.com
 
 ## Aireach
 
-Host *.aireach.ie
-    IdentityFile ~/.ssh/keys/aireach
+Host dev-1.aireach.ie
+    IdentityFile ~/.ssh/keys/dev-1.aireach.ie
+    User ubuntu
