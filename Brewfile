@@ -208,6 +208,7 @@ cask 'snes9x'
 cask 'docker'
 cask 'stats'
 cask 'mattermost'
+cask 'jan'
 # Hashicorp tap
 brew 'hashicorp/tap/nomad'
 brew 'hashicorp/tap/terraform'
