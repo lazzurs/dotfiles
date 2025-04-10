@@ -209,6 +209,7 @@ cask 'docker'
 cask 'stats'
 cask 'mattermost'
 cask 'jan'
+cask 'ledger-live'
 # Hashicorp tap
 brew 'hashicorp/tap/nomad'
 brew 'hashicorp/tap/terraform'
