@@ -210,6 +210,7 @@ cask 'stats'
 cask 'mattermost'
 cask 'jan'
 cask 'ledger-live'
+cask 'monero-wallet'
 # Hashicorp tap
 brew 'hashicorp/tap/nomad'
 brew 'hashicorp/tap/terraform'
