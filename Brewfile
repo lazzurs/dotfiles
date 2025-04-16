@@ -4,6 +4,7 @@ tap 'StevenACoffman/jt' || true
 tap 'hashicorp/tap' || true
 tap 'tabbyml/tabby' || true
 tap 'aws/tap' || true
+tap 'axiomhq/tap' || true
 brew 'git'
 brew 'byobu'
 brew 'openconnect'
@@ -219,5 +220,4 @@ brew 'hashicorp/tap/vault'
 brew 'tabbyml/tabby/tabby'
 brew 'aws/tap/lightsailctl'
 # Axiom tap
-brew 'axiomhq/tap/axiom'
 brew 'axiomhq/tap/axiom-cli'
