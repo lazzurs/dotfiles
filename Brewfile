@@ -218,3 +218,6 @@ brew 'hashicorp/tap/vault'
 # Tabby tap
 brew 'tabbyml/tabby/tabby'
 brew 'aws/tap/lightsailctl'
+# Axiom tap
+brew 'axiomhq/tap/axiom'
+brew 'axiomhq/tap/axiom-cli'
