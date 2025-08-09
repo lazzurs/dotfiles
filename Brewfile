@@ -221,6 +221,7 @@ cask 'ledger-live'
 cask 'monero-wallet'
 cask 'multipass'
 cask 'utm'
+cask 'audacity'
 # Hashicorp tap
 brew 'hashicorp/tap/nomad'
 brew 'hashicorp/tap/terraform'
