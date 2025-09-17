@@ -4,7 +4,6 @@ tap 'StevenACoffman/jt' || true
 tap 'hashicorp/tap' || true
 tap 'tabbyml/tabby' || true
 tap 'aws/tap' || true
-tap 'axiomhq/tap' || true
 brew 'git'
 brew 'byobu'
 brew 'openconnect'
@@ -126,6 +125,9 @@ brew 'wireguard-go'
 brew 'wireguard-tools'
 brew 'create-dmg'
 brew 'terratag'
+brew 'pandoc'
+brew 'gawk'
+brew 'weasyprint'
 cask 'discord'
 cask 'thunderbird'
 cask 'chromium'
@@ -226,6 +228,9 @@ cask 'utm'
 cask 'audacity'
 cask 'epson-print-layout'
 cask 'unifi-identity-endpoint'
+cask 'mactex'
+cask 'wifiman'
+cask 'axiom'
 # Hashicorp tap
 brew 'hashicorp/tap/nomad'
 brew 'hashicorp/tap/terraform'
@@ -233,5 +238,3 @@ brew 'hashicorp/tap/vault'
 # Tabby tap
 brew 'tabbyml/tabby/tabby'
 brew 'aws/tap/lightsailctl'
-# Axiom tap
-brew 'axiomhq/tap/axiom'
