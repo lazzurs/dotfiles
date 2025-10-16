@@ -19,14 +19,6 @@ if type brew &>/dev/null; then
   fi
 fi
 
-#if [ -f "/opt/homebrew/opt/bash-git-prompt/share/gitprompt.sh" ]; then
-#  _GIT_PROMPT_DIR="/opt/homebrew/opt/bash-git-prompt/share"
-#  source "/opt/homebrew/opt/bash-git-prompt/share/gitprompt.sh"
-#fi
-
-# Testing Starship https://starship.rs/
-eval "$(starship init bash)"
-
 if [ -d "/opt/homebrew/opt/openjdk/bin" ];
 then
     export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
@@ -53,23 +45,6 @@ if [ -d "/Users/lazzurs/Library/Application Support/JetBrains/Toolbox/scripts" ]
 then
     export PATH="$PATH:/Users/lazzurs/Library/Application Support/JetBrains/Toolbox/scripts"
 fi
-
-# bash-preexec
-if [ -f /opt/homebrew/etc/profile.d/bash-preexec.sh ];
-then
-    . /opt/homebrew/etc/profile.d/bash-preexec.sh
-fi
-
-# Bash Line editor https://github.com/akinomyoga/ble.sh
-if [ -f ~/.local/share/blesh/ble.sh ]; then
-    source ~/.local/share/blesh/ble.sh
-fi
-
-# Atuin
-if [ -f "$HOME/.atuin/bin/env" ]; then
-    . "$HOME/.atuin/bin/env"
-fi
-eval "$(atuin init bash)"
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/Users/lazzurs/.cache/lm-studio/bin"

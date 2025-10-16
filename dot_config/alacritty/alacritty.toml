@@ -39,3 +39,6 @@ blue    = '#00ff00'
 magenta = '#711c91'
 cyan    = '#0abdc6'
 white   = '#d7d7d5'
+
+[terminal]
+shell = { program = "/opt/homebrew/bin/bash", args = ["-l", "-c", "zellij"] }
