@@ -1,0 +1,20 @@
+# Testing Starship https://starship.rs/
+eval "$(starship init bash)"
+
+# bash-preexec
+if [ -f /opt/homebrew/etc/profile.d/bash-preexec.sh ];
+then
+    . /opt/homebrew/etc/profile.d/bash-preexec.sh
+fi
+
+# Bash Line editor https://github.com/akinomyoga/ble.sh
+if [ -f ~/.local/share/blesh/ble.sh ]; then
+    source ~/.local/share/blesh/ble.sh
+fi
+
+# Atuin
+if [ -f "$HOME/.atuin/bin/env" ]; then
+    . "$HOME/.atuin/bin/env"
+fi
+eval "$(atuin init bash)"
+
