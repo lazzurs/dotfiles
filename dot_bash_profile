@@ -48,3 +48,11 @@ fi
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/Users/lazzurs/.cache/lm-studio/bin"
+
+# If running bash and this is an interactive shell, source ~/.bashrc
+if [ -n "$BASH_VERSION" ] && [[ $- == *i* ]]; then
+  if [ -r "$HOME/.bashrc" ]; then
+    . "$HOME/.bashrc"
+  fi
+fi
+
