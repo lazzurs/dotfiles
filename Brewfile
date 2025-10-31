@@ -239,6 +239,7 @@ cask 'wifiman'
 cask 'axiom'
 cask 'halloy'
 cask 'yubico-authenticator'
+cask 'linear-linear'
 # Hashicorp tap
 brew 'hashicorp/tap/nomad'
 brew 'hashicorp/tap/terraform'
