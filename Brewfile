@@ -241,6 +241,7 @@ cask 'axiom'
 cask 'halloy'
 cask 'yubico-authenticator'
 cask 'linear-linear'
+cask '1password'
 # Hashicorp tap
 brew 'hashicorp/tap/nomad'
 brew 'hashicorp/tap/terraform'
