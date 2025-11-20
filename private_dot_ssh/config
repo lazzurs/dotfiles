@@ -50,3 +50,6 @@ Host dev-1.aireach.ie
 Host prd-1.aireach.ie
     IdentityFile ~/.ssh/keys/prd-1.aireach.ie
     User ubuntu
+
+## Codespaces
+include ~/.ssh/codespaces
