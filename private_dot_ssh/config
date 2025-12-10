@@ -51,5 +51,11 @@ Host prd-1.aireach.ie
     IdentityFile ~/.ssh/keys/prd-1.aireach.ie
     User ubuntu
 
+## Cloud-Weather
+
+Host dev-1.cloudweather.info
+    IdentityFile ~/.ssh/keys/dev-1.cloudweather.info
+    User ubuntu
+
 ## Codespaces
 include ~/.ssh/codespaces
