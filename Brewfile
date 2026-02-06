@@ -4,6 +4,7 @@ tap 'StevenACoffman/jt' || true
 tap 'hashicorp/tap' || true
 tap 'tabbyml/tabby' || true
 tap 'aws/tap' || true
+tap 'coder/coder' || true
 brew 'git'
 brew 'byobu'
 brew 'openconnect'
@@ -142,7 +143,7 @@ brew 'bat'
 brew 'fish'
 brew 'container-compose'
 brew 'swiftlint'
-brew 'coder'
+brew 'prek'
 cask 'discord'
 cask 'thunderbird'
 cask 'chromium'
@@ -170,7 +171,6 @@ cask 'iterm2'
 cask 'calibre'
 cask 'tor-browser'
 cask 'vagrant'
-cask 'firefox'
 #xquartz before inkscape
 cask 'xquartz'
 cask 'inkscape'
@@ -246,6 +246,7 @@ cask 'yubico-authenticator'
 cask 'linear-linear'
 cask '1password'
 cask 'gcloud-cli'
+cask 'claude-code'
 # Hashicorp tap
 brew 'hashicorp/tap/nomad'
 brew 'hashicorp/tap/terraform'
@@ -253,3 +254,5 @@ brew 'hashicorp/tap/vault'
 # Tabby tap
 brew 'tabbyml/tabby/tabby'
 brew 'aws/tap/lightsailctl'
+# Coder tap
+brew 'coder/coder/coder'
