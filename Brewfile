@@ -5,7 +5,7 @@ tap 'hashicorp/tap' || true
 tap 'tabbyml/tabby' || true
 tap 'aws/tap' || true
 tap 'coder/coder' || true
-tap 'netbirdio/tap' || true
+#tap 'netbirdio/tap' || true'
 brew 'git'
 brew 'byobu'
 brew 'openconnect'
@@ -259,5 +259,5 @@ brew 'tabbyml/tabby/tabby'
 brew 'aws/tap/lightsailctl'
 # Coder tap
 brew 'coder/coder/coder'
-brew 'netbirdio/tap/netbird'
-cask 'netbirdio/tap/netbird-ui'
+#brew 'netbirdio/tap/netbird''
+#cask 'netbirdio/tap/netbird-ui'
