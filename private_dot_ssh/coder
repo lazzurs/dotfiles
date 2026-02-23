@@ -1,0 +1,16 @@
+Host coder.*
+	ConnectTimeout=0
+	StrictHostKeyChecking=no
+	UserKnownHostsFile=/dev/null
+	LogLevel ERROR
+	ProxyCommand /opt/homebrew/bin/coder --global-config "/Users/lazzurs/Library/Application Support/coderv2" ssh --stdio --ssh-host-prefix coder. %h
+
+Host *.coder
+	ConnectTimeout=0
+	StrictHostKeyChecking=no
+	UserKnownHostsFile=/dev/null
+	LogLevel ERROR
+
+Match host *.coder !exec "/opt/homebrew/bin/coder connect exists %h"
+	ProxyCommand /opt/homebrew/bin/coder --global-config "/Users/lazzurs/Library/Application Support/coderv2" ssh --stdio --hostname-suffix coder %h
+

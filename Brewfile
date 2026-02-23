@@ -5,6 +5,7 @@ tap 'hashicorp/tap' || true
 tap 'tabbyml/tabby' || true
 tap 'aws/tap' || true
 tap 'coder/coder' || true
+tap 'netbirdio/tap' || true
 brew 'git'
 brew 'byobu'
 brew 'openconnect'
@@ -144,9 +145,10 @@ brew 'fish'
 brew 'container-compose'
 brew 'swiftlint'
 brew 'prek'
+brew 'golangci-lint'
 cask 'qflipper'
 cask 'discord'
-cask 'thunderbird'
+#cask 'thunderbird'
 cask 'chromium'
 cask 'whatsapp'
 brew 'wget'
@@ -257,3 +259,5 @@ brew 'tabbyml/tabby/tabby'
 brew 'aws/tap/lightsailctl'
 # Coder tap
 brew 'coder/coder/coder'
+brew 'netbirdio/tap/netbird'
+cask 'netbirdio/tap/netbird-ui'

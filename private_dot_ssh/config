@@ -33,14 +33,6 @@ Host neamh-*.hostofdoom.net
     User root
     IdentityFile ~/.ssh/keys/neamh
 
-## HSE
-
-Host ssh.dev.azure.com
-    IdentityFile ~/.ssh/keys/hse
-    IdentitiesOnly yes
-    HostkeyAlgorithms +ssh-rsa
-    PubkeyAcceptedKeyTypes +rsa-sha2-256,rsa-sha2-512
-
 ## Aireach
 
 Host dev-1.aireach.ie
@@ -58,4 +50,25 @@ Host dev-1.cloudweather.info
     User ubuntu
 
 ## Codespaces
-include ~/.ssh/codespaces
+#include ~/.ssh/codespaces
+
+## Coder
+# FIXME: For some reason the include doesn't work, so I'm including the file directly for now. This is a temporary workaround until I can figure out why the include isn't working.
+#include ~/.ssh/coder
+
+Host coder.*
+        ConnectTimeout=0
+        StrictHostKeyChecking=no
+        UserKnownHostsFile=/dev/null
+        LogLevel ERROR
+        ProxyCommand /opt/homebrew/bin/coder --global-config "/Users/lazzurs/Library/Application Support/coderv2" ssh --stdio --ssh-host-prefix coder. %h
+
+Host *.coder
+        ConnectTimeout=0
+        StrictHostKeyChecking=no
+        UserKnownHostsFile=/dev/null
+        LogLevel ERROR
+
+Match host *.coder !exec "/opt/homebrew/bin/coder connect exists %h"
+        ProxyCommand /opt/homebrew/bin/coder --global-config "/Users/lazzurs/Library/Application Support/coderv2" ssh --stdio --hostname-suffix coder %h
+
