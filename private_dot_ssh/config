@@ -9,6 +9,9 @@ Ciphers chacha20-poly1305@openssh.com,aes256-gcm@openssh.com,aes128-gcm@openssh.
 
 # Hosts
 
+Host *
+	IdentityAgent /Users/lazzurs/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
+
 ## GitHub
 
 Host github.com
