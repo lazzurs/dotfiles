@@ -15,8 +15,7 @@ Host *
 ## Byers
 
 Host byers.lazzurs.net
-    User root
-    IdentityFile ~/.ssh/keys/byers
+User root
 
 Host git.lazzurs.net
     User git
