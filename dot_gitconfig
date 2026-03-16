@@ -11,6 +11,8 @@
     autoSetupRemote = true
 [init]
 	defaultBranch = main
+[gpg]
+    format = ssh
 
 [includeIf "gitdir:~/.local/"]
 	path = ~/.local/.gitconfig
