@@ -1,7 +1,7 @@
 [user]
 	email = rob@lazzurs.org
 	name = Rob Lazzurs
-    signingkey = /Users/lazzurs/signing-key.pub
+    signingkey = /Users/lazzurs/.ssh/keys/signing-key.pub
 [core]
 	editor = vim
 	autocrlf = input
