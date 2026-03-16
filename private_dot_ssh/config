@@ -14,9 +14,6 @@ Host *
 
 ## Byers
 
-Host byers.lazzurs.net
-    User root
-
 Host git.lazzurs.net
     User git
     Port 222
