@@ -56,3 +56,4 @@ if [ -n "$BASH_VERSION" ] && [[ $- == *i* ]]; then
   fi
 fi
 
+export SSH_AUTH_SOCK=/Users/lazzurs/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
