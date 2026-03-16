@@ -15,7 +15,7 @@ Host *
 ## Byers
 
 Host byers.lazzurs.net
-User root
+    User root
 
 Host git.lazzurs.net
     User git
