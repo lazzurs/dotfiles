@@ -12,13 +12,6 @@ Ciphers chacha20-poly1305@openssh.com,aes256-gcm@openssh.com,aes128-gcm@openssh.
 Host *
 	IdentityAgent /Users/lazzurs/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
 
-## GitHub
-
-Host github.com
-    User git
-    IdentityFile ~/.ssh/keys/github
-
-
 ## Byers
 
 Host byers.lazzurs.net
